@@ -99,7 +99,7 @@ func (c *nvidiaGPUCollector) Update(ch chan<- prometheus.Metric) error {
 		level.Error(c.logger).Log(
 			"msg", "Failed to initialize NVML",
 			"err", err)
-		return err
+		return nil
 	}
 	defer gonvml.Shutdown()
 
