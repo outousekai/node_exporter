@@ -22,7 +22,7 @@ require (
 	github.com/mdlayher/netlink v1.7.2
 	github.com/mdlayher/wifi v0.2.0
 	github.com/mindprince/gonvml v0.0.0-20211002210717-ac0b66419a41
-	github.com/opencontainers/selinux v1.11.0
+	github.com/opencontainers/selinux v1.13.0
 	github.com/prometheus-community/go-runit v0.1.0
 	github.com/prometheus/client_golang v1.19.1
 	github.com/prometheus/client_model v0.6.1
@@ -31,14 +31,16 @@ require (
 	github.com/prometheus/procfs v0.15.1
 	github.com/safchain/ethtool v0.4.1
 	golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f
-	golang.org/x/sys v0.22.0
+	golang.org/x/sys v0.26.0
 	howett.net/plist v1.0.1
 )
 
 require (
+	cyphar.com/go-pathrs v0.2.1 // indirect
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cyphar/filepath-securejoin v0.6.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dennwc/ioctl v1.0.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
